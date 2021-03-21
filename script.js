@@ -5,8 +5,14 @@ function performSignUp() {
 
     if(id == 'KosameNoEngawa') {
         if(pass == 'parapara') {
-            location.href = "file:///Users/yanakashun/test/succes.html"
+            location.href = "file:///Users/yanakashun/homepage/succes.html"
         }
+        else {
+            alert('パスワードが違います')
+        }
+    }
+    else {
+        alert('IDが違います')
     }
 
 };
