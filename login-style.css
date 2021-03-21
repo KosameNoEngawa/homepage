@@ -1,0 +1,13 @@
+body {
+    width: 100%;
+    margin: 0 auto;
+    min-height: 100vh;
+    display: grid;
+    grid-template:
+        "...... ...... ...... ...... ...... ...... ......"
+        "header header header header header header header" 70px
+        "...... ...... ...... ...... ...... ...... ......"
+        "center center center center center center center" 1fr
+        "...... ...... ...... ...... ...... ...... ......"
+        / 90px 180px auto 1fr auto;
+}
